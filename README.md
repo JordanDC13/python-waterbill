@@ -39,11 +39,4 @@ elif customer_code == "i":
 			result = 2000 +((float(gallons)-10000000)*.00025)
 			return result
 
-
-#Customer Code:
-#Beginning Meter Reading: 
-#Ending Meter Reading:
-#Gallons of water used:
-#Amount Billed: 
-
 print "Customer Code: {0}\nBeginning Meter Reading: {1}\nEnding Meter Reading: {2}\nGallons of water used: {3}\nAmount Billed: ${4}".format(customer_code,beginning_meter,ending_meter,gallons,amountBilled())
